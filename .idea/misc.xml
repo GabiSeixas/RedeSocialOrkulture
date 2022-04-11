@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1955" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/caixa_edit_text.xml" value="0.2075" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/caixa_grande_tela.xml" value="0.1985" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/calendario.xml" value="0.186" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/cor_fundo_tela.xml" value="0.1985" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/coresdefundodegrade.xml" value="0.12" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/corfundodetela.xml" value="0.19" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/home.xml" value="0.186" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1955" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_buscar_pessoas.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_calendario.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_chat.xml" value="0.1985" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_configuracao.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_home.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_person_search.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_senha.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/icone_telefone.xml" value="0.1945" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/iconemail.xml" value="0.14" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/iconesenha.xml" value="0.186" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/drawable/telefone.xml" value="0.186" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout-v23/activity_perfil.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_alterarDadosdaConta.xml" value="0.1" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_alterar_dados_conta.xml" value="0.22" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_alterar_dados_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_atividade.xml" value="0.1" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_cadastrar_favoritos.xml" value="0.22" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_configuracoes.xml" value="0.25" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_perfil.xml" value="0.22" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_refazer_senha.xml" value="0.22" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_tela_inicial.xml" value="0.22" />
+        <entry key="..\:/Users/gabis/AndroidStudioProjects/RedeSocialBrq/app/src/main/res/layout/activity_tela_login.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

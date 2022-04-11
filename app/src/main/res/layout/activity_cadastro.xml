@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cor_fundo_tela"
+    android:textAlignment="center"
+    tools:context=".Cadastro">
+
+
+    <ImageView
+        android:id="@+id/logotelalogin"
+        android:layout_width="176dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_orkulture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <EditText
+        android:id="@+id/edt_nomeUsuario_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:background="@drawable/caixa_edit_text"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#040303"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <EditText
+        android:id="@+id/edt_email_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableEnd="@drawable/icone_email"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_nomeUsuario_telaCadastro"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/edt_senhaUsuario_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableEnd="@drawable/icone_senha"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email_telaCadastro"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/edt_confirmarSenha_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:background="@drawable/caixa_edit_text"
+        android:hint="Confirmar Senha "
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_senhaUsuario_telaCadastro"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/edt_numTelefone_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableEnd="@drawable/icone_telefone"
+        android:hint="Telefone"
+        android:inputType="textPhonetic"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_confirmarSenha_telaCadastro"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <EditText
+        android:id="@+id/edt_dataNascimento_telaCadastro"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableEnd="@drawable/icone_calendario"
+        android:hint="Data de Nascimento"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_numTelefone_telaCadastro"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/button_finalizarCadastro_telaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Avançar"
+        android:textColor="#F8F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_dataNascimento_telaCadastro"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <TextView
+        android:id="@+id/txt_cadastro_telaCadastro"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:text="CADASTRO"
+        android:textAlignment="center"
+        android:textColor="#080809"
+        android:textSize="34sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

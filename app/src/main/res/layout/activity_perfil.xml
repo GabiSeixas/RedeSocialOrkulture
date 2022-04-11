@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cor_fundo_tela"
+    tools:context=".Perfil">
+
+
+    <TextView
+        android:id="@+id/txt_perfil_telaPerfil"
+        android:layout_width="155dp"
+        android:layout_height="48dp"
+        android:text="PERFIL"
+        android:textAlignment="center"
+        android:textColor="#FAEEEE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imgButton_cadastrarFavoritos_telaPerfil"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/icone_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <ImageView
+        android:id="@+id/imgButton_sair_telaPerfil"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/icone_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imgButton_batePapo_telaPerfil"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/icone_conversa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imgButton_buscarUsuario_telaPerfil"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/icone_buscar_pessoas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imgButton_perfil_telaPerfil"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/icone_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <ImageView
+        android:id="@+id/imgButton_amigosComunidades_telaPerfil"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/icone_amigos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imgButton_alterarCadastro_telaPerfil"
+        android:layout_width="79dp"
+        android:layout_height="62dp"
+        android:src="@drawable/icone_configuracao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imgButton_fotoUsuario_telaPerfil"
+        android:layout_width="133dp"
+        android:layout_height="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        tools:src="@drawable/boneca_png" />
+
+    <TextView
+        android:id="@+id/txt_favoritos_telaPerfil"
+        android:layout_width="174dp"
+        android:layout_height="41dp"
+        android:text="Favoritos "
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+
+    <TextView
+        android:id="@+id/txt_serieFavorita_telaPerfil"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_tv"
+        android:padding="10dp"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <TextView
+        android:id="@+id/txt_filmeFavorito_telaPerfil"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_filme"
+        android:padding="10dp"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/txt_livroFavorito_telaPerfil"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_livro"
+        android:padding="10dp"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/txt_musicaFavorita_telaPerfil"
+        android:layout_width="352dp"
+        android:layout_height="54dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_musica"
+        android:padding="10dp"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <TextView
+        android:id="@+id/txt_nomedousuario_telaPerfil"
+        android:layout_width="179dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

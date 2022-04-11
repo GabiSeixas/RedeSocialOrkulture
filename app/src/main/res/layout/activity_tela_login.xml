@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaLogin"
+    android:background="@drawable/cor_fundo_tela">
+
+
+    <ImageView
+        android:id="@+id/logotelalogin"
+        android:layout_width="303dp"
+        android:layout_height="203dp"
+        android:src="@drawable/logo_orkulture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <EditText
+        android:id="@+id/edt_email_telaLogin"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:drawableEnd="@drawable/icone_email"
+        android:background="@drawable/caixa_edit_text"
+        android:hint="E-mail"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logotelalogin"
+        app:layout_constraintVertical_bias="0.037"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_senha_telaLogin"
+        android:layout_width="308dp"
+        android:layout_height="53dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableEnd="@drawable/icone_senha"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email_telaLogin"
+        app:layout_constraintVertical_bias="0.027"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_acessarApp_telaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#E91E63"
+        android:text="Entrar"
+        android:textColor="#FDF9F9"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_senha_telaLogin"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <TextView
+        android:id="@+id/buttonTxt_esqueceuSenha_telaLogin"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:text="Esqueceu a senha? clique aqui"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/button_acessarApp_telaLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_senha_telaLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_cadastroUsuario_telaLogin"
+        android:layout_width="189dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E91E63"
+        android:text="Cadastrar-se"
+        android:textColor="#F4F1F1"
+        app:iconTint="#0C0C0C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_acessarApp_telaLogin"
+        app:layout_constraintVertical_bias="0.919" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

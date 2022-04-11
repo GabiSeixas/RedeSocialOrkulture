@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlterarDadosUsuario"
+    android:background="@drawable/cor_fundo_tela"
+    >
+
+    <ImageView
+        android:id="@+id/logotelalogin"
+        android:layout_width="176dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_orkulture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/txt_alterarDadosUsuario_telaAlterarDadosUsuario"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Informações pessoais e da conta "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <EditText
+        android:id="@+id/edt_alterarNome_telaAlterarDadosUsuario"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:background="@drawable/caixa_edit_text"
+        android:hint="Alterar nome "
+        android:inputType="text"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_alterarDadosUsuario_telaAlterarDadosUsuario"
+
+        app:layout_constraintVertical_bias="0.137" />
+
+    <EditText
+        android:id="@+id/edt_alterarSenha_telaAlterarDadosUsuario"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/caixa_edit_text"
+        android:hint="Alterar senha"
+        android:inputType="textVisiblePassword"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_alterarNome_telaAlterarDadosUsuario"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <EditText
+        android:id="@+id/edt_alterarTelefone_telaAlterarDadosUsuario"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="244dp"
+        android:background="@drawable/caixa_edit_text"
+        android:ems="10"
+        android:hint="Informação de contato"
+        android:inputType="number"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_alterarSenha_telaAlterarDadosUsuario"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <EditText
+        android:id="@+id/edt_alterarEmail_telaAlterarDadosUsuario"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/caixa_edit_text"
+        android:hint="Alterar e-mail"
+        android:inputType="textPersonName|textEmailAddress"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt_alterarSenha_telaAlterarDadosUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_alterarNome_telaAlterarDadosUsuario"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_salvarAlteracoes_telaAlterarDadosUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#E91E63"
+        android:text="Salvar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_alterarTelefone_telaAlterarDadosUsuario"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/imgbutton_voltarPerfil_telaAlterarDadosUsuario"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/icone_voltar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

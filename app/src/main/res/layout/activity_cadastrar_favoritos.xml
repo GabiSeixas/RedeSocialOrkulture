@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cor_fundo_tela"
+    tools:context=".CadastrarFavoritos">
+
+
+    <TextView
+        android:id="@+id/txt_logoOrkulture_telaCadastrarFavoritos"
+        android:layout_width="182dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/logo_orkulture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/imgbutton_voltarPerfil_telaCadastrarFavoritos"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/icone_voltar" />
+
+    <TextView
+        android:id="@+id/txt_cadastroFavoritos_telacadastrarFavoritos"
+        android:layout_width="346dp"
+        android:layout_height="57dp"
+        android:text="Cadastrar Favoritos "
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <EditText
+        android:id="@+id/edt_cadastrarSerieFavorita_telaCadastrarFavoritos"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_tv"
+        android:hint="   Série "
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <EditText
+        android:id="@+id/edt_cadastrarFilmeFavorito_telaCadastrarFavoritos"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_filme"
+        android:hint="   Filme "
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <EditText
+        android:id="@+id/edt_cadastrarLivroFavorito_telaCadastrarFavoritos"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_livro"
+        android:hint="   Livro "
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/edt_cadastrarMusicaFavorita_telaCadastrarFavoritos"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:background="@drawable/caixa_edit_text"
+        android:drawableStart="@drawable/icone_musica"
+        android:hint="   Música "
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <Button
+        android:id="@+id/button_salvarFavoritos_telaCadastrarFavoritos"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#E91E63"
+        android:text="Salvar"
+        android:textAlignment="center"
+        android:textColor="#FDF9F9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
